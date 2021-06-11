@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <meta content="ie=edge" http-equiv="X-UA-Compatible">
+                    <title>
+                        Covid-19 Disease Diagnosis
+                    </title>
+                    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+                        <script src="{{ url_for('static', filename='js/jquery.min.js') }}">
+                        </script>
+                        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}">
+                        </script>
+                        <link href="{{ url_for('static', filename='css/test.css') }}" rel="stylesheet">
+                            <script src="{{ url_for('static', filename='js/newjs.js') }}" type="text/javascript">
+
+                            </script>
+                        </link>
+                    </link>
+                </meta>
+            </meta>
+        </meta>
+        <link rel="stylesheet" type="text/css" href="../static/css/back.css">
+    </head>
+    <section class="background">
+        <body>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        Covid-19 Disease Diagnosis Using X-Ray Images
+                    </a>
+                </div>
+            </nav>
+            {% block content %}
+    {% endblock %}
+        </body>
+        <footer>
+            <div class="foot">
+                <b>
+                    Beta Version-2021
+                </b>
+                <br>
+                    <b>
+                        Developed By
+                        <a href="https://www.linkedin.com/in/sarfaraj-hussain-61b993192">
+                            Mohd Aaquib
+                        </a>
+                    </b>
+                </br>
+            </div>
+        </footer>
+    </section>
+</html>
